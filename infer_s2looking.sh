@@ -1,0 +1,2 @@
+python eval.py --config local_configs/FHD/fhd.s2looking.py --checkpoint model_ckpt/s2looking.pth --show-dir output_path/s2looking/label/ 
+python metrics.py --pred_path output_path/s2looking/ --gt_path data/S2Looking/test/

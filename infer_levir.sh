@@ -1,0 +1,2 @@
+python eval.py --config local_configs/FHD/fhd.levir.py --checkpoint model_ckpt/levir.pth --show-dir output_path/levir/label/ 
+python metrics.py --pred_path output_path/levir/ --gt_path data/LEVIR/test/

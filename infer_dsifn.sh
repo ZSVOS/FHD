@@ -1,0 +1,2 @@
+python eval.py --config local_configs/FHD/fhd.dsifn.py --checkpoint model_ckpt/dsifn.pth --show-dir output_path/dsifn/label/
+python metrics.py --pred_path output_path/dsifn/ --gt_path data/DSIFN/test/ --use_jpg True
