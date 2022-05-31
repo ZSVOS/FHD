@@ -50,8 +50,8 @@ pip install opencv-python
 bash train_eval.sh
 ```
 
-## Testing (Waiting for upload)
-Download [LEVIR, DSIFN, LEVIR+, S2Looking](), and put it in a folder `model_ckpt/`.
+## Testing
+Download [LEVIR, DSIFN, LEVIR+, S2Looking](https://drive.google.com/drive/folders/1am8UiWnvVs72jQo41U0s1pkD4jfO4gsu?usp=sharing), and put it in a folder `model_ckpt/`.
 
 ```bash
 # single gpu (V100 16G)
