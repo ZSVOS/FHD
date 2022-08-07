@@ -55,6 +55,8 @@ bash train_eval.sh
 ## Testing
 Download [LEVIR, DSIFN, LEVIR+, S2Looking](https://drive.google.com/drive/folders/1am8UiWnvVs72jQo41U0s1pkD4jfO4gsu?usp=sharing), and put it in a folder `model_ckpt/`.
 
+## Citation
+If you find this useful in your research, please consider citing:
 ```bash
 # single gpu (V100 16G)
 bash infer_levir.sh
@@ -68,3 +70,17 @@ bash infer_s2looking.sh
 ![FHD](assets/results.png)
 ## Qualitative Results
 ![FHD](assets/results_pic.png)
+
+## Citation
+
+If you find this useful in your research, please consider citing:
+
+```
+@article{pei2022feature,
+  title={Feature Hierarchical Differentiation for Remote Sensing Image Change Detection},
+  author={Pei, Gensheng and Zhang, Lulu},
+  journal={IEEE Geoscience and Remote Sensing Letters},
+  year={2022},
+  publisher={IEEE}
+}
+```
