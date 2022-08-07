@@ -55,8 +55,6 @@ bash train_eval.sh
 ## Testing
 Download [LEVIR, DSIFN, LEVIR+, S2Looking](https://drive.google.com/drive/folders/1am8UiWnvVs72jQo41U0s1pkD4jfO4gsu?usp=sharing), and put it in a folder `model_ckpt/`.
 
-## Citation
-If you find this useful in your research, please consider citing:
 ```bash
 # single gpu (V100 16G)
 bash infer_levir.sh
