@@ -1,6 +1,5 @@
 
 from .cgnet import CGNet
-from .fast_scnn import FastSCNN
 from .hrnet import HRNet
 from .mobilenet_v2 import MobileNetV2
 from .mobilenet_v3 import MobileNetV3
@@ -13,7 +12,7 @@ from .mix_transformer import MixVisionTransformer
 from .pvtv2 import PyramidVisionTransformerV2
 
 __all__ = [
-    'ResNet', 'ResNetV1c', 'ResNetV1d', 'ResNeXt', 'HRNet', 'FastSCNN',
+    'ResNet', 'ResNetV1c', 'ResNetV1d', 'ResNeXt', 'HRNet',
     'ResNeSt', 'MobileNetV2', 'UNet', 'CGNet', 'MobileNetV3',
     'VisionTransformer', 'MixVisionTransformer', 'PyramidVisionTransformerV2'
 ]
